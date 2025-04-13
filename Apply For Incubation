@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Incubation - MII Foundation</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <img src="images/mii-logo.png" alt="MII Foundation Logo" class="logo" />
+      <h1>MII Foundation</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="incubation.html" class="active">Incubation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- INCUBATION PROGRAM INTRO -->
+  <section class="incubation-intro">
+    <h2>Our Incubation Program</h2>
+    <p>
+      The MII Foundation Incubation Program is designed to accelerate the growth of early-stage 
+      startups and innovative ideas. Through tailored mentorship, networking events, workshops, 
+      and resource-sharing, we ensure that every entrepreneur has the optimal environment to 
+      develop their solutions.
+    </p>
+  </section>
+
+  <!-- APPLY SECTION -->
+  <section class="apply-section">
+    <h2>Apply to Our Program</h2>
+    <p>
+      If you are passionate about building impactful solutions, we invite you to apply for 
+      incubation. Fill out the application form below, and our team will review your submission.
+    </p>
+
+    <form action="#" method="POST" class="application-form">
+      <label for="startup-name">Startup/Idea Name</label>
+      <input type="text" id="startup-name" name="startup-name" placeholder="Enter your startup name" required>
+
+      <label for="founder-name">Founder/Team Lead Name</label>
+      <input type="text" id="founder-name" name="founder-name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+      <label for="stage">Startup Stage</label>
+      <select id="stage" name="stage" required>
+        <option value="" disabled selected hidden>Select your stage</option>
+        <option value="idea">Idea Stage</option>
+        <option value="prototype">Prototype/POC</option>
+        <option value="mvp">MVP (Minimum Viable Product)</option>
+        <option value="scaling">Scaling/Revenue</option>
+      </select>
+
+      <label for="idea-summary">Brief Description</label>
+      <textarea id="idea-summary" name="idea-summary" rows="5" placeholder="Tell us about your idea, product or solution" required></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 MII Foundation. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
