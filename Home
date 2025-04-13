@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MII Foundation - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <!-- Replace with your actual logo file -->
+      <img src="images/mii-logo.png" alt="MII Foundation Logo" class="logo" />
+      <h1>MII Foundation</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="incubation.html">Incubation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h2>Empowering Entrepreneurs of Tomorrow</h2>
+    <p>Join our incubator and grow your ideas into impactful ventures.</p>
+    <a href="incubation.html" class="btn">Apply Now</a>
+  </section>
+  
+  <!-- INTRO SECTION -->
+  <section class="intro-section">
+    <h2>Welcome to MII Foundation</h2>
+    <p>
+      MII Foundation is an incubator initiative focused on fostering an entrepreneurial 
+      mindset among students and professionals. We offer structured mentorship, hands-on 
+      workshops, and networking opportunities to help you thrive in your startup journey.
+    </p>
+  </section>
+
+  <!-- FEATURED PROGRAMS / HIGHLIGHTS -->
+  <section class="highlights-section">
+    <h2>Our Highlights</h2>
+    <div class="highlight-cards">
+      <div class="highlight-card">
+        <h3>Mentorship</h3>
+        <p>Benefit from guidance by seasoned entrepreneurs and subject-matter experts.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Resources</h3>
+        <p>
+          Access co-working spaces, specialized labs, and seed funding to bring your ideas to life.
+        </p>
+      </div>
+      <div class="highlight-card">
+        <h3>Community</h3>
+        <p>
+          Collaborate with a vibrant network of peers, investors, and domain experts for synergy.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 MII Foundation. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
