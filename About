@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About MII Foundation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <img src="images/mii-logo.png" alt="MII Foundation Logo" class="logo" />
+      <h1>MII Foundation</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="incubation.html">Incubation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- ABOUT SECTION -->
+  <section class="about-section">
+    <h2>Who We Are</h2>
+    <p>
+      MII Foundation is an incubator created to promote entrepreneurship and innovation. 
+      We believe in providing an ecosystem where aspiring founders receive the knowledge, 
+      resources, and support needed to build successful ventures.
+    </p>
+    <p>
+      Our mission is to cultivate a community of innovators by offering mentorship from 
+      experienced entrepreneurs, facilitating networking opportunities with industry leaders, 
+      and providing access to critical resources. We strive to turn ambitious ideas into 
+      impactful realities.
+    </p>
+  </section>
+
+  <!-- MISSION AND VISION -->
+  <section class="mission-vision-section">
+    <div class="mission">
+      <h3>Mission</h3>
+      <p>
+        Our mission is to create a dynamic platform where budding entrepreneurs can develop 
+        innovative solutions and bring them to market with confidence and support.
+      </p>
+    </div>
+    <div class="vision">
+      <h3>Vision</h3>
+      <p>
+        We envision a vibrant entrepreneurial ecosystem that empowers individuals to tackle 
+        real-world problems, driving economic growth and social impact.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 MII Foundation. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
